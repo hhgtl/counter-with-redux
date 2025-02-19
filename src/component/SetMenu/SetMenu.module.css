@@ -1,0 +1,43 @@
+.value_configuration_menu_wrapper {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 5px;
+  border: 3px solid #1ad1ff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.value_configuration_menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.value_configuration_input {
+  height: 30px;
+  outline: 2px solid #1ad1ff;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+}
+.value_configuration_input.error {
+  outline: 2px solid #ff3535;
+  background-color: #ffa0a0;
+}
+.value_configuration_menu label {
+  color: #1ad1ff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.button_wrapper {
+  height: 80px;
+  width: 100%;
+  border: 3px solid #1ad1ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.buttonComponent {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #1ad1ff;
+  padding: 0 10px;
+  font-size: 36px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttonComponent:active {
+  background-color: #1fa6c8;
+}
